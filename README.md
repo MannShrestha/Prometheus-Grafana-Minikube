@@ -35,6 +35,10 @@ This repository demonstrates:
    ```bash  
    minikube start  
    ```  
+   **OR Use Docker to setup minikube**
+   ```bash
+   minikube start --driver=docker
+   ```
 3. **Load Docker Image into Minikube Cluster:**  
    ```bash  
    minikube image load flask-metrics-app:latest  
